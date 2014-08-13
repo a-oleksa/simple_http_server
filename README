@@ -1,0 +1,8 @@
+http_server:  This is a simple http server programed in java.  The server loads files located in the ./public_html directory.  The server is hosted on port 8080.  To view files locally load up a web browser and direct it to the following URL:
+http://localhost:8080
+
+build
+javac simple_server.java
+
+run
+java simple_server
